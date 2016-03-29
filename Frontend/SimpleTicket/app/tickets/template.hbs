@@ -1,0 +1,12 @@
+<center> <h2> Tickets: </h2> </center>
+
+<div id="tickets" align="center">
+{{#each model}}
+<div id="ticket-box" class="panel panel-default">
+  <div id="ticket-box-thema" class="panel-body"> <div id="ticket-box-thema-inhalt"> <i class="fa fa-ticket fa-lg"></i> {{thema}} </div></div>
+  <div id="ticket-box-beschreibung" class="panel-footer">{{beschreibung}}</div>
+    <div id="ticket-box-autor"> <p> <i class="fa fa-pencil"></i>: {{autor}} </p> </div>
+</div>
+<br>
+{{/each}}
+</div>

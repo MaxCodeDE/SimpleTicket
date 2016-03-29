@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<script src="sweetalert/sweetalert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="sweetalert/sweetalert.css">
+
+
+<div class="row">
+<div class="col-sm-12">
+  <div id="navbar" class="panel panel-default">
+    <div class="panel-body">
+      <div class="row">
+        
+        <div class="col-sm-4 admin-navbar-top" >
+          <label> <i class="fa fa-home fa-2x" /> </label> <br />
+          {{#link-to 'index'}}<button class="btn btn-default"> Home </button> {{/link-to}}
+        </div>
+        <div class="col-sm-4 admin-navbar-top">
+          <label> <i class="fa fa-archive fa-2x" /> </label> <br />
+          {{#link-to 'tickets'}}<button class="btn btn-default"> Tickets </button> {{/link-to}}
+        </div>
+        <div class="col-sm-4 admin-navbar-top">
+        <label> <i class="fa fa-ticket fa-2x" />  </label> <br />
+          {{#link-to 'neuesticket'}}<button class="btn btn-default" > Ticket erstellen </button> {{/link-to}}
+        </div>
+          
+      </div>
+        
+            
+    </div>
+  </div>
+</div>
+</div>
+
+{{outlet}}

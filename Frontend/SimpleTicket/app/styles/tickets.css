@@ -1,0 +1,62 @@
+#tickets {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#ticket-box {
+    width: 800px;
+    text-align: left;
+    
+}
+
+#ticket-box-thema {
+    font-size: 120%;
+    font-style: bold;
+    height: 35px;
+    
+}
+
+#ticket-box-thema-inhalt {
+    margin-top: -1%;
+    
+}
+
+
+#ticket-box-autor {
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+    
+}
+
+
+#neuesticket {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 350px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+    
+}
+
+#neuesticket-input {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+#neuesticket-textinput {
+    width: 700px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+#neuesticket-button {
+    margin-left: 6%;
+    
+}
