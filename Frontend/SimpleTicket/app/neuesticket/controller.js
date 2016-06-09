@@ -41,6 +41,10 @@ export default Ember.Controller.extend({
                 }
             });
 			
+			this.set('thema', null);
+			this.set('autor', null);
+			this.set('beschreibung', null);
+			
 			
 			swal("Ticket erstellt!", "Ticket erfolgreich erstellt!", "success");
             

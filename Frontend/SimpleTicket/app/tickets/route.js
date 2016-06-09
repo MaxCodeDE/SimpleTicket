@@ -5,21 +5,20 @@ export default Ember.Route.extend( {
 
     
     model: function() {
-        return this.setupItems();  
+        return this.loadTickets();  
     },
     
-    
-    
-    setupItems: function() {
+    loadTickets: function() {
         var result;
             var url = '/Backend/getTickets.php';
-            var that = this;
+            //var that = this;
+			var store = this.get('store');
+		
             result = Ember.$.getJSON(url).then(function(json) {
                 
                 var tickets = [];
-                
+				
                 json.forEach( function (ticket) {
-                    var store = that.get('store');
                     var storeItem = store.createRecord('ticket', {
                         autor: ticket['autor'],
                         thema: ticket['thema'],
