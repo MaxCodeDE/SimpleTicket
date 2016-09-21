@@ -7,7 +7,7 @@ Link zum Projekt auf meinem Blog.
 
 ## Vorraussetzungen
 
-Folgende dinge brauchst du zum ausführen.
+Folgende Tools brauchst du zum ausführen.
 
 * [Git](http://git-scm.com/)
 * [Node.js](http://nodejs.org/) (mit NPM)
