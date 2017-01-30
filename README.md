@@ -1,4 +1,4 @@
-# ItemManager
+# SimpleTicket
 
 Eine EmberJS Frontend App welche mit einem PHP Backend zusammenarbeitet. Es können sehr vereinfacht Tickets erstellt und angezeigt werden.
 
